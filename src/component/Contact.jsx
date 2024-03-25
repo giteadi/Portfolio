@@ -9,7 +9,6 @@ const Contact = () => {
 
     const [formDetails, setFormDetails] = useState(formInitialDetails);
     const [btnText, setBtnText] = useState('Send');
-    const [status, setStatus] = useState({});
 
     const onFormUpdate = (category, value) => {
         setFormDetails({
@@ -19,19 +18,34 @@ const Contact = () => {
     }
 
     const handleSubmit = async (event) => {
-        event.preventDefault();
-        setBtnText("Sending...");
-        let response = await fetch("https://portfolliobackend.onrender.com/api/portfollio/v1/formMailer", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json;charset=utf-8',
-            },
-            body: JSON.stringify(formDetails),
-        });
-        setBtnText("Send");
+        event.preventDefault(); // Prevent default form submission behavior
     
-        
+        setBtnText("Sending...");
+        try {
+            let response = await fetch("https://portfolliobackend.onrender.com/api/portfollio/v1/formMailer", {
+                method: "POST",
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8',
+                },
+                body: JSON.stringify(formDetails),
+            });
+    
+            if (response.ok) {
+                // Reset the form and show a success message
+                setFormDetails(formInitialDetails);
+                alert("Message sent successfully!");
+            } else {
+                // Handle error response
+                alert("Failed to send message. Please try again later.");
+            }
+        } catch (error) {
+            // Handle fetch error
+            alert("An error occurred. Please try again later.");
+        } finally {
+            setBtnText("Send"); // Reset the button text regardless of the outcome
+        }
     }
+    
 
     return (
         <div className="py-32 contact bg-contact-bg" id="connect">
