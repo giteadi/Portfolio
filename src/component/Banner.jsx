@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Banner = () => {
-    const toRotate =["Web Devloper ", "FullStack Devloper " ,"Student"];
+    const toRotate =["Web Devloper ", "FullStack Developer " ,"Student"];
    const [LoopNum, setLoopNum] = useState(0);
     const [text, setText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
