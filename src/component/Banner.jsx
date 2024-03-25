@@ -6,7 +6,7 @@ const Banner = () => {
    const [LoopNum, setLoopNum] = useState(0);
     const [text, setText] = useState("");
     const [isDeleting, setIsDeleting] = useState(false);
-    const period = 2000;
+    const period = 1000;
     const [delta, setDelta] = useState(300 - Math.random() *100);
 
 
