@@ -45,7 +45,7 @@ const onUpdateActiveLink = (v)=>setActiveLink(v);
           </Nav>
           <span className='navbar-text'>
             <div className="flex gap-2 socail-icons ">
-            <a  rel="noopener noreferrer"className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 text-white hover:bg-white  border-white rounded-full  " href="linkedin.com/in/aditya-sharma-b70a6a230/" target='_blank'>
+            <a  rel="noopener noreferrer"className="w-[40px] h-[40px] flex justify-center items-center border-[1px] border-opacity-75 text-white hover:bg-white  border-white rounded-full  " href="https://www.linkedin.com/in/aditya-sharma-b70a6a230/" target='_blank'>
                 <AiFillLinkedin 
                 className='text-lg '/>
               </a>
