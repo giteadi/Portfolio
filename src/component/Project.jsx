@@ -3,112 +3,112 @@
 import React from 'react';
 import { Nav, TabContainer, TabContent, TabPane } from 'react-bootstrap';
 import ProjectCard from './ProjectCard';
-import UbFactory from "../assets/UbFactory/img2.png";
-import pinkAprons from "../assets/pinkaprons/Screenshot (134).png";
+import UbFactory from "../assets/image 1 (2).png";
+import pinkAprons from "../assets/image 1.png";
 import bitgert from "../assets/Bitgert/Screenshot (136).png";
 import Ruffle from "../assets/Ruffle/Ruffle.png";
-import methopia from "../assets/methopia/methopia.png";
-import daylogics from "../assets/daylogics/daylogics.png";
-import nayamitra from "../assets/nyamitra/nayamirta.png";
+import methopia from "../assets/vh.jpg";
+import daylogics from "../assets/image 17.png";
+import BharatRoofers from "../assets/image 16.jpg";
 const Project = () => {
     const Projects =[
         {
-            title: "Nyayamitra",
+            title: "BharatRoofers",
             description:"Design & Development",
-            url : nayamitra,
+            url : BharatRoofers,
             id : 1,
-            websiteUrl : "https://nyayamitra.vercel.app/"
+            websiteUrl : "https://real-estate.doaguru.com/"
 
 
         },
 
         {
-            title: "it Website Daylogics",
+            title: "BigBulls",
             description:"Design & Development",
             url : daylogics,
             id : 1,
-            websiteUrl : "https://daylogics.vercel.app/"
+            websiteUrl : "https://test.bigbulls.co.in/"
 
 
         },
         {
-            title: "PinkAprons costumer",
+            title: "Hitkarini H.S Girls School",
             description:"Design & Development",
             url :pinkAprons,
-            websiteUrl : "https://pink-aprons-costumer.vercel.app/"
+            websiteUrl : "https://hitkarinigirlsschool.netlify.app/"
             
 
         },
         {
-            title: "minethopia",
+            title: "Vishnu Hast Kala Kendra",
             description:"Design & Development",
             url : methopia,
-            websiteUrl : "https://minetopia-henna.vercel.app/"  
+            websiteUrl : "https://vishnuhastkalakendra.netlify.app/"  
 
         },
         {
-            title: "Ub factory Next",
+            title: "Mind Care",
             description:"Design & Development",
             url : UbFactory,
             id : 1,
-            websiteUrl : "https://ubfactory-web.vercel.app/"
+            websiteUrl : "https://care-mantel.netlify.app/"
 
 
         },
-        {
-            title: "Bitgert realEstate Blockchain",
-            description:"Design & Development",
-            url :bitgert,
-            websiteUrl : "https://realestate.bitgert.market/"
+        // {
+        //     title: "Bitgert realEstate Blockchain",
+        //     description:"Design & Development",
+        //     url :bitgert,
+        //     websiteUrl : "https://realestate.bitgert.market/"
             
 
-        },
+        // },
     
-        {
-            title: "Gaming website ",
-            description:"Design & Development",
-            url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__216_.png?updatedAt=1679913364463",
-            websiteUrl : "https://easegaming.netlify.app/"
-        },
-        {
-            title: "Discord clone",
-            description:"Design & Development",
-            url :"https://ik.imagekit.io/b80sh2n2k/2023-03-27.png?updatedAt=1679913577541",
-            websiteUrl : "https://geetdiscord.netlify.app/"
-        },
-        {
-            title: "explore space",
-            description:"Design & Development",
-            url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__8_.png?updatedAt=1679914133139",
-            websiteUrl : "https://geetanjalichawla.github.io/explore-space/"
-        },
-        {
-            title: "Testimonial component",
-            description:"Design & Development",
-            url : "https://ik.imagekit.io/b80sh2n2k/Screenshot__219_.png?updatedAt=1679914168476",
-            websiteUrl : "https://geet-testimonial.netlify.app/"
-        },
-        {
-            title: "Raffles",
-            description:"Design & Development",
-            url : Ruffle,
-            id : 1,
-            websiteUrl : "https://ruffles-geet.vercel.app"
+        // {
+        //     title: "Gaming website ",
+        //     description:"Design & Development",
+        //     url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__216_.png?updatedAt=1679913364463",
+        //     websiteUrl : "https://easegaming.netlify.app/"
+        // },
+        // {
+        //     title: "Discord clone",
+        //     description:"Design & Development",
+        //     url :"https://ik.imagekit.io/b80sh2n2k/2023-03-27.png?updatedAt=1679913577541",
+        //     websiteUrl : "https://geetdiscord.netlify.app/"
+        // },
+        // {
+        //     title: "explore space",
+        //     description:"Design & Development",
+        //     url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__8_.png?updatedAt=1679914133139",
+        //     websiteUrl : "https://geetanjalichawla.github.io/explore-space/"
+        // },
+        // {
+        //     title: "Testimonial component",
+        //     description:"Design & Development",
+        //     url : "https://ik.imagekit.io/b80sh2n2k/Screenshot__219_.png?updatedAt=1679914168476",
+        //     websiteUrl : "https://geet-testimonial.netlify.app/"
+        // },
+        // {
+        //     title: "Raffles",
+        //     description:"Design & Development",
+        //     url : Ruffle,
+        //     id : 1,
+        //     websiteUrl : "https://ruffles-geet.vercel.app"
 
 
-        },
-        {
-            title: "Filter component",
-            description:"Design & Development",
-            url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__220_.png?updatedAt=1679914864311",
-            websiteUrl : "https://geet-filter.netlify.app"
-        },
-        {
-            title: "Modern chair",
-            description:"Design & Development",
-            url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__221_.png?updatedAt=1679915371756",
-            websiteUrl : "https://github.com/geetanjalichawla/mordern-chair/deployments/activity_log?environment=github-pages"
-        },
+        // },
+        // {
+        //     title: "Filter component",
+        //     description:"Design & Development",
+        //     url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__220_.png?updatedAt=1679914864311",
+        //     websiteUrl : "https://geet-filter.netlify.app"
+        // },
+        // {
+        //     title: "Modern chair",
+        //     description:"Design & Development",
+        //     url :"https://ik.imagekit.io/b80sh2n2k/Screenshot__221_.png?updatedAt=1679915371756",
+        //     websiteUrl : "https://github.com/geetanjalichawla/mordern-chair/deployments/activity_log?environment=github-pages"
+        // },
     ]
 
 
@@ -116,7 +116,7 @@ const Project = () => {
   <section className='project' id='projects'>
     <div className="conitaner px-9">
         <div className="row">
-            <div className="col text-center">
+            <div className="text-center col">
             <div className='w-full text-4xl'> Project </div>
              <p>please click on the project to check the project sites </p>
                           

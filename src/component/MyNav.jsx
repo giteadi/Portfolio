@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './myNav.css';
 import { AiFillLinkedin , AiOutlineGithub} from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
-import cv from '../assets/Resume.pdf'
+import cv from '../assets/Resume2.pdf'
 const MyNav = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scolled, setScolled] = useState(false);
